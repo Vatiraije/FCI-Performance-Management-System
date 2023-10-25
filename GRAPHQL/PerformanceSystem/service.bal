@@ -29,7 +29,7 @@ type KeyPerformanceIndicator record {
     boolean approved;
 };
 
-// Define a table to store employee records
+// Define a table to store employee records hendrina
 table<Employee> key(employeeId) employeesTable = table [
     // Initialize the table with sample employee data
     // Each row represents an employee
