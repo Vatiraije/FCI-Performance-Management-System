@@ -154,7 +154,7 @@ service /performance on new graphql:Listener(9000) {
         }
 
 
-    // HoD-specific mutation: Create department objectives
+    // HoD-specific mutation: Create department objectives (Tjihimise)
     resource function post createDepartmentObjectives(DepartmentObjective objective) returns DepartmentObjective {
         objectivesTable.add(objective);
         return objective;
